@@ -1,0 +1,227 @@
+
+.part.sidebar.left {
+    background-color:#060606 !important;
+    border-right:2px solid gray
+}
+
+*{
+    --mainGlowColor : hsl(193deg 100% 50%);
+    --redGlowColor : rgb(155,0,0);
+    --vscode-breadcrumb-background:#060606;
+    --vscode-editor-background:#060606;
+}
+
+
+
+
+@font-face {
+    font-family: "FixedSysTrue";
+	font-smooth: never;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+    src: url("https://saltssaumure.github.io/pios-discord-theme/font/FixedSysTrue.ttf");
+}
+
+.active {
+    font-family:"FixedSysTrue", sans-serif;
+    
+}
+
+
+
+.monaco-scrollable-element, .lines-content.monaco-editor-background, .monaco-list-row {
+    background-color:black;
+}
+
+span.name {
+    font-family:"FixedSysTrue", sans-serif;
+    color:white;
+    text-shadow: 2px 0 10px var(--mainGlowColor), -2px 0 10px var(--mainGlowColor);
+    font-size:26px;
+}
+
+
+.monaco-icon-name-container .line-numbers.lh-odd, .label-name{
+    color:white;
+}
+
+.margin-view-overlays , .monaco-highlighted-label:not(.left > .monaco-highlighted-label){
+    font-family:"FixedSysTrue", sans-serif;
+    color:white;
+    text-shadow: 2px 0 10px var(--mainGlowColor), -2px 0 10px var(--mainGlowColor);
+    
+}
+
+
+.margin-view-overlays {
+    background-color:black;
+}
+
+
+.left > .monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name > .monaco-highlighted-label {
+    text-shadow:none !important;
+}
+
+.margin {
+    z-index:2;
+    border-right:1px solid gray;
+    color:white;
+    left: -1px;
+
+}
+
+.part.activity.left {
+    border-right: 2px solid gray;
+}
+
+.monaco-list-row, .monaco-tl-contents, .monaco-icon-label {
+    overflow:visible;
+}
+
+.monaco-breadcrumbs {
+    border:1px solid gray;
+    background-color:black !important;
+}
+
+
+
+.tab:not([aria-selected="true"])>.monaco-icon-label>.monaco-icon-label-container>.monaco-icon-name-container>.label-name {
+    color:white;
+    
+}
+
+a span div div[aria-selected="true"]{
+    color:red !important;
+}
+
+.monaco-editor, .line-numbers.lh-odd:not(.active-line-number){
+    color:white !important;
+    
+}
+
+.active-line-number{
+    color:red !important;
+    text-shadow: 2px 0 8px var(--redGlowColor), -2px 0 8px var(--redGlowColor);
+}
+.tab.tab-actions-right.sizing-fit.has-icon.active {
+    background-color:#060606 !important;
+    color:red !important;
+    text-shadow: 2px 0 8px var(--redGlowColor), -2px 0 8px var(--redGlowColor);
+
+    
+}
+
+.editor-actions {
+    background: #060000;
+    border-left: 2px solid gray;
+}
+
+.hc-black .monaco-action-bar .action-item.menu-entry .action-label, .vs-dark .monaco-action-bar .action-item.menu-entry .action-label {
+    color:red !important;
+}
+
+
+.tab.tab-actions-right.sizing-fit.has-icon:not(.active){
+    background-color:black !important;
+    color:white;
+    text-shadow: 2px 0 10px var(--mainGlowColor), -2px 0 10px var(--mainGlowColor);
+    
+}
+
+.mtk4 {
+    text-shadow: 2px 0 10px var(--mainGlowColor), -2px 0 10px var(--mainGlowColor), 2px 0 10px var(--mainGlowColor), -2px 0 10px var(--mainGlowColor) !important;
+    color:white;   
+}
+
+::before {
+    text-shadow: 2px 0 10px currentColor, -2px 0 10px currentColor, 2px 0 10px currentColor, -2px 0 10px currentColor;
+}
+
+
+.content>::before {
+    
+    color:red;
+}
+
+.content{
+    background:black;
+}
+
+.content > .composite-bar > .vertical > ul > li > a::before {
+    color:red;
+}
+
+.content > div:not(.composite-bar) > .vertical > ul > li > a::before, .monaco-dropdown, .action-item > .codicon, .dropdown-label>a::before {
+    color:red !important;
+}
+
+div.badge-content {
+    background-color: red !important;
+    box-shadow: 0 0 10px 2px red;
+
+}
+
+
+.monaco-tl-contents > .monaco-icon-label>.monaco-icon-label-container {
+    z-index: 99;
+    overflow: visible;
+}
+
+div:not([role="tab"])>.monaco-icon-label>.monaco-icon-label-container>.monaco-icon-name-container>a {
+    font-family:"FixedSysTrue", sans-serif;
+    color:white;
+    text-shadow: 2px 0 10px var(--mainGlowColor), -2px 0 10px var(--mainGlowColor);
+}
+
+div:not([role="tab"])>.monaco-icon-label>.monaco-icon-label-container>.monaco-icon-description-container>span {
+    font-family:"FixedSysTrue", sans-serif;
+    color:red;
+    text-shadow: 2px 0 10px var(--redGlowColor), -2px 0 10px var(--redGlowColor);
+}
+
+
+.monaco-list-rows{
+    overflow: visible !important;
+}
+
+.pane-header{
+    background-color: #060606 !important;
+    border-top: 2px solid gray;
+}
+
+.part.statusbar {
+    background-color: #060606 !important;
+    border-top:2px solid gray;
+}
+#status\.host {
+    background-color: red !important;
+}
+
+#status\.host > a{
+    box-shadow: 2px 2px 7px 2px red;
+
+}
+
+.composite.title {
+    background: #060606;
+}
+
+[class^="mtk"] {
+    text-shadow: 2px 0 10px currentColor, -2px 0 10px currentColor;
+    
+}
+
+.monaco-list.list_id_3 .monaco-list-row.focused {
+    background:red;
+}
+
+.monaco-list-rows {
+    background:#060606 !important;
+}
+
+.monaco-list-row, .monaco-workbench .repl .repl-tree .output .expression .value.info {
+    font-family:"FixedSysTrue", sans-serif;
+    color:white !important;
+    text-shadow: 2px 0 10px var(--mainGlowColor), -2px 0 10px var(--mainGlowColor);
+    
+}
